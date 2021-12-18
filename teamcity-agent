@@ -1,0 +1,1 @@
+docker run -v team_city_agent_config:/data/teamcity_agent/conf -e SERVER_URL="http://192.168.1.17:8111" -d jetbrains/teamcity-agent
